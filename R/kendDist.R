@@ -161,3 +161,9 @@ qkendSym <- function(mAlpha) {
     })
   }
 }
+           
+           #Wzór na dystrybuantę dla przykładu symetrycznego
+$$F(t) = \left\{ \begin{array}{ll}
+\frac{1}{2}\bigl(1+t^{-\alpha} + e^{t^{-\alpha}} \bigr)e^{-t^{-\alpha}} & \textrm{gdy $t \geq 1$}\\
+1-F(-t) & \textrm{gdy $t < 1$}
+\end{array} \right.$$
